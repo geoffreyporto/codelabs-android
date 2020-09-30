@@ -56,7 +56,10 @@ public class MainActivity extends FragmentActivity {
         btnChat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                /*
+                Refatoring 3
+                Crear una clase excluisava para cargar fragmenttos, para que cumple totalmente con la (S) del principio de SOLID de buenas prácticas de desarrollo a nivel clases
+                */
                 //Usando una funcion genérica
                 fragment = new ChatsFragment();
                 fragmentManager = getSupportFragmentManager();
@@ -69,12 +72,11 @@ public class MainActivity extends FragmentActivity {
         btnContacto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                fragment = new ContactosFragment();
-
                 /*
                 Refatoring 3
                 Crear una clase excluisava para cargar fragmenttos, para que cumple totalmente con la (S) del principio de SOLID de buenas prácticas de desarrollo a nivel clases
                 */
+                fragment = new ContactosFragment();
                 fragmentManager = getSupportFragmentManager();
                 Fragmento fragmento = new Fragmento(fragment,fragmentManager);
                 fragmento.cargarFragmento();
