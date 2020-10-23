@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/lblProducto"
+        android:layout_width="97dp"
+        android:layout_height="21dp"
+        android:text="Producto"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <EditText
+        android:id="@+id/edtProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Producto"
+        android:text=""
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/lblCtdInventarioProducto"
+        android:layout_width="97dp"
+        android:layout_height="21dp"
+        android:text="CTD. Inventario Producto"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <EditText
+        android:id="@+id/edtCtdInventarioProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad del Inventario"
+        android:text="0"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+
+    <TextView
+        android:id="@+id/lblCantidad"
+        android:layout_width="97dp"
+        android:layout_height="21dp"
+        android:text="Cantidad"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <EditText
+        android:id="@+id/edtCtd"
+        android:layout_width="71dp"
+        android:layout_height="43dp"
+        android:hint="Cantidad"
+        android:text="0.0"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/lbCosto"
+        android:layout_width="97dp"
+        android:layout_height="21dp"
+        android:text="Precio Costo"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <EditText
+        android:id="@+id/edtCosto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Costo"
+        android:text="0.0"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+
+    <TextView
+        android:id="@+id/lblMargen"
+        android:layout_width="97dp"
+        android:layout_height="21dp"
+        android:text="Margen"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <EditText
+        android:id="@+id/edtMargen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Margen de ganancia (%)"
+        android:text="0.0"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <TextView
+        android:id="@+id/IVA"
+        android:layout_width="97dp"
+        android:layout_height="21dp"
+        android:text="Iva"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/lblIVA"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:text="1.16"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:id="@+id/lblPrecioVenta"
+        android:layout_width="97dp"
+        android:layout_height="21dp"
+        android:text="Precio Venta"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <EditText
+        android:id="@+id/edtPrecioVenta"
+        android:layout_width="91dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <Button
+        android:id="@+id/btnCalcularPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+
+    </LinearLayout>
+<!--/androidx.constraintlayout.widget.ConstraintLayout-->
