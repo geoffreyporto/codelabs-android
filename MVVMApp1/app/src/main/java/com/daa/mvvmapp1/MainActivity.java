@@ -92,13 +92,13 @@ public class MainActivity extends AppCompatActivity {
             capturarCambios(edtMargen);
 
             //Asociando evento clic al boton "Calcula" :: OPCIONAL
-            /*btnCalcularPrecio.setOnClickListener(new View.OnClickListener() {
+            btnCalcularPrecio.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Log.d(TAG, "Evento btnCalcularPrecio.setOnClickListener()::onClick(View v)");
                     viewModel.calcularPrecioVenta( edtCtdInventarioProducto.getText().toString(), edtCosto.getText().toString(), edtMargen.getText().toString()  );
                 }
-            });*/
+            });
 
 
         } catch (Exception e){
